@@ -1,0 +1,60 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  build-and-test:
+    runs-on: ubuntu-latest
+
+    services:
+      postgres:
+        image: postgres:16-alpine
+        env:
+          POSTGRES_USER: baomajie
+          POSTGRES_PASSWORD: baomajie
+          POSTGRES_DB: baomajie
+        ports:
+          - 5432:5432
+        options: >-
+          --health-cmd "pg_isready -U baomajie -d baomajie"
+          --health-interval 5s
+          --health-timeout 5s
+          --health-retries 10
+
+    env:
+      DATABASE_URL: postgresql://baomajie:baomajie@127.0.0.1:5432/baomajie?schema=public
+      API_BASE_URL: http://127.0.0.1:4000
+      NEXT_PUBLIC_APP_NAME: 宝马街
+      NEXT_PUBLIC_APP_LOCALE: pt
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Run database migrations
+        run: npm run db:migrate
+
+      - name: Seed database
+        run: npm run db:seed
+
+      - name: Build API
+        run: npm run build -w @baomajie/api
+
+      - name: Test API
+        run: npm run test -w @baomajie/api
+
+      - name: Build Web
+        run: npm run build -w @baomajie/web
