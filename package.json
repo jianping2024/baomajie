@@ -1,0 +1,24 @@
+{
+  "name": "baomajie-platform",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "setup": "npm install && npm run db:up && npm run db:wait && npm run db:migrate && npm run db:seed",
+    "db:up": "docker compose up -d",
+    "db:down": "docker compose down",
+    "db:wait": "node scripts/wait-for-services.mjs",
+    "db:migrate": "npm run prisma:migrate -w @baomajie/api",
+    "db:seed": "npm run prisma:seed -w @baomajie/api",
+    "dev:web": "npm run dev -w @baomajie/web",
+    "dev:api": "npm run start:dev -w @baomajie/api",
+    "build": "npm run build -w @baomajie/web && npm run build -w @baomajie/api",
+    "lint": "npm run lint -w @baomajie/web",
+    "test": "npm run test -w @baomajie/api"
+  },
+  "engines": {
+    "node": ">=20.18.0"
+  }
+}

@@ -1,0 +1,466 @@
+{
+  "generatedAt": "2026-06-23T14:26:56.689Z",
+  "startedAt": "2026-06-23T14:26:54.879Z",
+  "baseUrl": "https://www.baomajie.com",
+  "country": "pt",
+  "sitemapUrl": "https://www.baomajie.com/sitemap.xml",
+  "configuration": {
+    "samplePerGroup": 1,
+    "requestDelayMs": 350,
+    "userAgent": "Mozilla/5.0 (compatible; BaoMaJieMigrationImport/1.0)"
+  },
+  "importJob": {
+    "source": "baomajie_public_html",
+    "type": "page_import",
+    "status": "completed",
+    "startedAt": "2026-06-23T14:26:54.879Z",
+    "completedAt": "2026-06-23T14:26:56.689Z",
+    "totalRows": 11,
+    "successRows": 11,
+    "failedRows": 0,
+    "errorSummaryJson": null
+  },
+  "counts": {
+    "crawlPages": 6,
+    "listings": 4,
+    "articles": 1,
+    "errors": 0
+  },
+  "crawlPages": [
+    {
+      "sourceUrl": "https://www.baomajie.com/pt/",
+      "canonicalUrl": "https://www.baomajie.com/pt/",
+      "countryCode": "pt",
+      "pageType": "home",
+      "section": null,
+      "sourceId": null,
+      "contentChecksum": "801be8ff6ba6391d27d767ef59da9f5f9d951cfaebe000dfe7e79d11e7843a5c",
+      "fetchedAt": "2026-06-23T14:26:54.892Z",
+      "parsedAt": "2026-06-23T14:26:54.892Z",
+      "status": "parsed",
+      "payload": {
+        "sourceUrl": "https://www.baomajie.com/pt/",
+        "canonical": "https://www.baomajie.com/pt/",
+        "pageType": "home",
+        "country": "pt",
+        "section": null,
+        "sourceId": null,
+        "title": "宝马街葡萄牙站",
+        "description": "宝马街葡萄牙站首页",
+        "categoryLabel": null,
+        "region": null,
+        "priceText": null,
+        "serviceCategory": null,
+        "methodText": null,
+        "publishedAt": null,
+        "eventStartAt": null,
+        "eventEndAt": null,
+        "modifiedAt": null,
+        "images": [],
+        "contacts": {
+          "phones": [],
+          "wechat": [],
+          "emails": [],
+          "whatsapp": []
+        },
+        "structuredDataType": null,
+        "parserSignals": {
+          "posterData": false,
+          "jsonLd": false,
+          "classifiedMain": false,
+          "h1": true,
+          "canonical": true
+        },
+        "contentChecksum": "801be8ff6ba6391d27d767ef59da9f5f9d951cfaebe000dfe7e79d11e7843a5c",
+        "validation": {
+          "ok": true,
+          "errors": [],
+          "warnings": [
+            "missing_json_ld",
+            "missing_poster_data",
+            "no_content_image"
+          ]
+        }
+      }
+    },
+    {
+      "sourceUrl": "https://www.baomajie.com/pt/jobs/4571/",
+      "canonicalUrl": "https://www.baomajie.com/pt/jobs/4571/",
+      "countryCode": "pt",
+      "pageType": "classified-detail",
+      "section": "jobs",
+      "sourceId": "4571",
+      "contentChecksum": "1bdc52eea2f5911aa78c5c3b523faa6136d40883ad6d408322adb88e0383337d",
+      "fetchedAt": "2026-06-23T14:26:55.260Z",
+      "parsedAt": "2026-06-23T14:26:55.260Z",
+      "status": "parsed",
+      "payload": {
+        "sourceUrl": "https://www.baomajie.com/pt/jobs/4571/",
+        "canonical": "https://www.baomajie.com/pt/jobs/4571/",
+        "pageType": "classified-detail",
+        "country": "pt",
+        "section": "jobs",
+        "sourceId": "4571",
+        "title": "里斯本郊区招聘寿司师傅",
+        "description": "招聘岗位：寿司师傅\\r\\n薪资：面谈\\r\\n电话：966815503\\r\\n微信：worker_pt",
+        "categoryLabel": "求职招聘",
+        "region": "里斯本",
+        "priceText": "面谈",
+        "serviceCategory": null,
+        "methodText": "招全职",
+        "publishedAt": "2026-06-23T13:37:12+01:00",
+        "eventStartAt": null,
+        "eventEndAt": null,
+        "modifiedAt": null,
+        "images": [],
+        "contacts": {
+          "phones": [
+            "966815503"
+          ],
+          "wechat": [
+            "worker_pt"
+          ],
+          "emails": [],
+          "whatsapp": []
+        },
+        "structuredDataType": "JobPosting",
+        "parserSignals": {
+          "posterData": true,
+          "jsonLd": true,
+          "classifiedMain": true,
+          "h1": true,
+          "canonical": true
+        },
+        "contentChecksum": "1bdc52eea2f5911aa78c5c3b523faa6136d40883ad6d408322adb88e0383337d",
+        "validation": {
+          "ok": true,
+          "errors": [],
+          "warnings": [
+            "no_content_image"
+          ]
+        }
+      }
+    },
+    {
+      "sourceUrl": "https://www.baomajie.com/pt/rent/4551/",
+      "canonicalUrl": "https://www.baomajie.com/pt/rent/4551/",
+      "countryCode": "pt",
+      "pageType": "classified-detail",
+      "section": "rent",
+      "sourceId": "4551",
+      "contentChecksum": "e3a0e45e2fb4d84cfba4001ac86b72f0109b0b80f03f5ad420c50447a836329d",
+      "fetchedAt": "2026-06-23T14:26:55.616Z",
+      "parsedAt": "2026-06-23T14:26:55.616Z",
+      "status": "parsed",
+      "payload": {
+        "sourceUrl": "https://www.baomajie.com/pt/rent/4551/",
+        "canonical": "https://www.baomajie.com/pt/rent/4551/",
+        "pageType": "classified-detail",
+        "country": "pt",
+        "section": "rent",
+        "sourceId": "4551",
+        "title": "Alameda 附近一居室，步行到地铁",
+        "description": "里斯本一居室，€1,200/月",
+        "categoryLabel": "房源",
+        "region": "里斯本",
+        "priceText": "€1,200/月",
+        "serviceCategory": null,
+        "methodText": null,
+        "publishedAt": "2026-06-23T10:00:00+01:00",
+        "eventStartAt": null,
+        "eventEndAt": null,
+        "modifiedAt": null,
+        "images": [],
+        "contacts": {
+          "phones": [],
+          "wechat": [],
+          "emails": [],
+          "whatsapp": []
+        },
+        "structuredDataType": "Apartment",
+        "parserSignals": {
+          "posterData": true,
+          "jsonLd": true,
+          "classifiedMain": true,
+          "h1": true,
+          "canonical": true
+        },
+        "contentChecksum": "e3a0e45e2fb4d84cfba4001ac86b72f0109b0b80f03f5ad420c50447a836329d",
+        "validation": {
+          "ok": true,
+          "errors": [],
+          "warnings": [
+            "no_content_image"
+          ]
+        }
+      }
+    },
+    {
+      "sourceUrl": "https://www.baomajie.com/pt/yellowpages/371/",
+      "canonicalUrl": "https://www.baomajie.com/pt/yellowpages/371/",
+      "countryCode": "pt",
+      "pageType": "yellowpages-detail",
+      "section": "yellowpages",
+      "sourceId": "371",
+      "contentChecksum": "9fefa589d00b9946c115f07fb749c6125cbc57b36e048ba558a6d21d6dc29c00",
+      "fetchedAt": "2026-06-23T14:26:55.971Z",
+      "parsedAt": "2026-06-23T14:26:55.971Z",
+      "status": "parsed",
+      "payload": {
+        "sourceUrl": "https://www.baomajie.com/pt/yellowpages/371/",
+        "canonical": "https://www.baomajie.com/pt/yellowpages/371/",
+        "pageType": "yellowpages-detail",
+        "country": "pt",
+        "section": "yellowpages",
+        "sourceId": "371",
+        "title": "浩大鞋业",
+        "description": "鞋类批发",
+        "categoryLabel": "黄页",
+        "region": "维拉贡德",
+        "priceText": null,
+        "serviceCategory": "鞋类批发",
+        "methodText": null,
+        "publishedAt": null,
+        "eventStartAt": null,
+        "eventEndAt": null,
+        "modifiedAt": null,
+        "images": [],
+        "contacts": {
+          "phones": [],
+          "wechat": [],
+          "emails": [],
+          "whatsapp": []
+        },
+        "structuredDataType": "LocalBusiness",
+        "parserSignals": {
+          "posterData": true,
+          "jsonLd": true,
+          "classifiedMain": false,
+          "h1": true,
+          "canonical": true
+        },
+        "contentChecksum": "9fefa589d00b9946c115f07fb749c6125cbc57b36e048ba558a6d21d6dc29c00",
+        "validation": {
+          "ok": true,
+          "errors": [],
+          "warnings": [
+            "no_content_image"
+          ]
+        }
+      }
+    },
+    {
+      "sourceUrl": "https://www.baomajie.com/pt/local/45/",
+      "canonicalUrl": "https://www.baomajie.com/pt/local/45/",
+      "countryCode": "pt",
+      "pageType": "local-detail",
+      "section": "local",
+      "sourceId": "45",
+      "contentChecksum": "f82c826467ae6107e62fae5299983696c362ac85c6c37b7785d3011ebd7377b3",
+      "fetchedAt": "2026-06-23T14:26:56.332Z",
+      "parsedAt": "2026-06-23T14:26:56.332Z",
+      "status": "parsed",
+      "payload": {
+        "sourceUrl": "https://www.baomajie.com/pt/local/45/",
+        "canonical": "https://www.baomajie.com/pt/local/45/",
+        "pageType": "local-detail",
+        "country": "pt",
+        "section": "local",
+        "sourceId": "45",
+        "title": "里斯本周末中文活动",
+        "description": "中秋聚会",
+        "categoryLabel": "本地活动",
+        "region": "里斯本",
+        "priceText": null,
+        "serviceCategory": null,
+        "methodText": "线下",
+        "publishedAt": null,
+        "eventStartAt": "2026-06-25T19:00:00+01:00",
+        "eventEndAt": "2026-06-25T22:00:00+01:00",
+        "modifiedAt": null,
+        "images": [],
+        "contacts": {
+          "phones": [],
+          "wechat": [],
+          "emails": [],
+          "whatsapp": []
+        },
+        "structuredDataType": "Event",
+        "parserSignals": {
+          "posterData": true,
+          "jsonLd": true,
+          "classifiedMain": true,
+          "h1": true,
+          "canonical": true
+        },
+        "contentChecksum": "f82c826467ae6107e62fae5299983696c362ac85c6c37b7785d3011ebd7377b3",
+        "validation": {
+          "ok": true,
+          "errors": [],
+          "warnings": [
+            "no_content_image"
+          ]
+        }
+      }
+    },
+    {
+      "sourceUrl": "https://www.baomajie.com/pt/news/media/125/",
+      "canonicalUrl": "https://www.baomajie.com/pt/news/media/125/",
+      "countryCode": "pt",
+      "pageType": "news-media-detail",
+      "section": "news",
+      "sourceId": "125",
+      "contentChecksum": "6cbeb2626bcc544bd2b5f504fecb479ac81da2137d33129f17030fdbf8a0bf73",
+      "fetchedAt": "2026-06-23T14:26:56.689Z",
+      "parsedAt": "2026-06-23T14:26:56.689Z",
+      "status": "parsed",
+      "payload": {
+        "sourceUrl": "https://www.baomajie.com/pt/news/media/125/",
+        "canonical": "https://www.baomajie.com/pt/news/media/125/",
+        "pageType": "news-media-detail",
+        "country": "pt",
+        "section": "news",
+        "sourceId": "125",
+        "title": "葡萄牙本地新闻摘要",
+        "description": "葡萄牙本地新闻摘要",
+        "categoryLabel": "资讯",
+        "region": null,
+        "priceText": null,
+        "serviceCategory": null,
+        "methodText": null,
+        "publishedAt": "2026-06-23T13:37:12+01:00",
+        "eventStartAt": null,
+        "eventEndAt": null,
+        "modifiedAt": null,
+        "images": [],
+        "contacts": {
+          "phones": [],
+          "wechat": [],
+          "emails": [],
+          "whatsapp": []
+        },
+        "structuredDataType": "NewsArticle",
+        "parserSignals": {
+          "posterData": false,
+          "jsonLd": true,
+          "classifiedMain": false,
+          "h1": true,
+          "canonical": true
+        },
+        "contentChecksum": "6cbeb2626bcc544bd2b5f504fecb479ac81da2137d33129f17030fdbf8a0bf73",
+        "validation": {
+          "ok": true,
+          "errors": [],
+          "warnings": [
+            "no_content_image"
+          ]
+        }
+      }
+    }
+  ],
+  "listings": [
+    {
+      "countryCode": "pt",
+      "categorySlug": "jobs",
+      "title": "里斯本郊区招聘寿司师傅",
+      "slug": "classified-jobs-4571",
+      "description": "招聘岗位：寿司师傅\\r\\n薪资：面谈\\r\\n电话：966815503\\r\\n微信：worker_pt",
+      "regionName": "里斯本",
+      "priceText": "面谈",
+      "serviceCategory": null,
+      "publishedAt": "2026-06-23T13:37:12+01:00",
+      "sourceType": "crawler_import",
+      "sourceId": "4571",
+      "sourceUrl": "https://www.baomajie.com/pt/jobs/4571/",
+      "contactMethodJson": {
+        "phones": [
+          "966815503"
+        ],
+        "wechat": [
+          "worker_pt"
+        ],
+        "emails": [],
+        "whatsapp": []
+      },
+      "contentChecksum": "1bdc52eea2f5911aa78c5c3b523faa6136d40883ad6d408322adb88e0383337d"
+    },
+    {
+      "countryCode": "pt",
+      "categorySlug": "rent",
+      "title": "Alameda 附近一居室，步行到地铁",
+      "slug": "classified-rent-4551",
+      "description": "里斯本一居室，€1,200/月",
+      "regionName": "里斯本",
+      "priceText": "€1,200/月",
+      "serviceCategory": null,
+      "publishedAt": "2026-06-23T10:00:00+01:00",
+      "sourceType": "crawler_import",
+      "sourceId": "4551",
+      "sourceUrl": "https://www.baomajie.com/pt/rent/4551/",
+      "contactMethodJson": {
+        "phones": [],
+        "wechat": [],
+        "emails": [],
+        "whatsapp": []
+      },
+      "contentChecksum": "e3a0e45e2fb4d84cfba4001ac86b72f0109b0b80f03f5ad420c50447a836329d"
+    },
+    {
+      "countryCode": "pt",
+      "categorySlug": "yellowpages",
+      "title": "浩大鞋业",
+      "slug": "yellowpages-yellowpages-371",
+      "description": "鞋类批发",
+      "regionName": "维拉贡德",
+      "priceText": null,
+      "serviceCategory": "鞋类批发",
+      "publishedAt": null,
+      "sourceType": "crawler_import",
+      "sourceId": "371",
+      "sourceUrl": "https://www.baomajie.com/pt/yellowpages/371/",
+      "contactMethodJson": {
+        "phones": [],
+        "wechat": [],
+        "emails": [],
+        "whatsapp": []
+      },
+      "contentChecksum": "9fefa589d00b9946c115f07fb749c6125cbc57b36e048ba558a6d21d6dc29c00"
+    },
+    {
+      "countryCode": "pt",
+      "categorySlug": "local",
+      "title": "里斯本周末中文活动",
+      "slug": "local-local-45",
+      "description": "中秋聚会",
+      "regionName": "里斯本",
+      "priceText": null,
+      "serviceCategory": null,
+      "publishedAt": null,
+      "sourceType": "crawler_import",
+      "sourceId": "45",
+      "sourceUrl": "https://www.baomajie.com/pt/local/45/",
+      "contactMethodJson": {
+        "phones": [],
+        "wechat": [],
+        "emails": [],
+        "whatsapp": []
+      },
+      "contentChecksum": "f82c826467ae6107e62fae5299983696c362ac85c6c37b7785d3011ebd7377b3"
+    }
+  ],
+  "articles": [
+    {
+      "countryCode": "pt",
+      "articleType": "news",
+      "title": "葡萄牙本地新闻摘要",
+      "slug": "news-media-125",
+      "summary": "葡萄牙本地新闻摘要",
+      "content": null,
+      "sourceName": "资讯",
+      "sourceUrl": "https://www.baomajie.com/pt/news/media/125/",
+      "publishedAt": "2026-06-23T13:37:12+01:00",
+      "sourceChecksum": "6cbeb2626bcc544bd2b5f504fecb479ac81da2137d33129f17030fdbf8a0bf73"
+    }
+  ],
+  "errors": []
+}

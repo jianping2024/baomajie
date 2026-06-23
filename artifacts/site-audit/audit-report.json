@@ -1,0 +1,1418 @@
+{
+  "generatedAt": "2026-06-23T12:58:49.542Z",
+  "fetchedAt": "2026-06-23T12:58:33.542Z",
+  "baseUrl": "https://www.baomajie.com",
+  "country": "pt",
+  "sitemapUrl": "https://www.baomajie.com/sitemap.xml",
+  "configuration": {
+    "samplePerGroup": 2,
+    "requestDelayMs": 400,
+    "userAgent": "Mozilla/5.0 (compatible; BaoMaJieMigrationAudit/1.0)"
+  },
+  "inventory": {
+    "total": 1043,
+    "byType": {
+      "home": 1,
+      "yellowpages-index": 1,
+      "local-index": 1,
+      "news-index": 344,
+      "publish": 1,
+      "classified-index": 5,
+      "classified-detail": 204,
+      "yellowpages-detail": 400,
+      "local-detail": 6,
+      "news-media-detail": 80
+    },
+    "bySection": {
+      "root": 1,
+      "yellowpages": 401,
+      "local": 7,
+      "news": 424,
+      "publish": 1,
+      "jobs": 123,
+      "rent": 48,
+      "used": 6,
+      "biz": 24,
+      "service": 8
+    }
+  },
+  "sampleSummary": {
+    "requested": 27,
+    "valid": 27,
+    "invalid": 0,
+    "validationRate": 1
+  },
+  "fieldCoverage": {
+    "canonical": {
+      "present": 27,
+      "total": 27,
+      "rate": 1
+    },
+    "sourceId": {
+      "present": 16,
+      "total": 27,
+      "rate": 0.5926
+    },
+    "title": {
+      "present": 27,
+      "total": 27,
+      "rate": 1
+    },
+    "description": {
+      "present": 27,
+      "total": 27,
+      "rate": 1
+    },
+    "categoryLabel": {
+      "present": 25,
+      "total": 27,
+      "rate": 0.9259
+    },
+    "region": {
+      "present": 14,
+      "total": 27,
+      "rate": 0.5185
+    },
+    "priceText": {
+      "present": 12,
+      "total": 27,
+      "rate": 0.4444
+    },
+    "serviceCategory": {
+      "present": 2,
+      "total": 27,
+      "rate": 0.0741
+    },
+    "publishedAt": {
+      "present": 11,
+      "total": 27,
+      "rate": 0.4074
+    },
+    "eventStartAt": {
+      "present": 2,
+      "total": 27,
+      "rate": 0.0741
+    },
+    "modifiedAt": {
+      "present": 2,
+      "total": 27,
+      "rate": 0.0741
+    },
+    "images": {
+      "present": 6,
+      "total": 27,
+      "rate": 0.2222
+    }
+  },
+  "duplicateCheck": {
+    "uniqueSourceKeys": 27,
+    "sourceKeyCount": 27,
+    "duplicateSourceKeys": 0,
+    "uniqueChecksums": 27,
+    "checksumCount": 27
+  },
+  "samples": [
+    {
+      "sourceUrl": "https://www.baomajie.com/pt/",
+      "canonical": "https://www.baomajie.com/pt/",
+      "pageType": "home",
+      "country": "pt",
+      "section": null,
+      "sourceId": null,
+      "title": "葡萄牙华人分类信息",
+      "description": "葡萄牙华人分类信息平台，覆盖招聘求职、房产租售、二手买卖与本地服务。",
+      "categoryLabel": null,
+      "region": null,
+      "priceText": null,
+      "serviceCategory": null,
+      "methodText": null,
+      "publishedAt": null,
+      "eventStartAt": null,
+      "eventEndAt": null,
+      "modifiedAt": null,
+      "images": [],
+      "contacts": {
+        "phones": [],
+        "wechat": [],
+        "emails": [],
+        "whatsapp": []
+      },
+      "structuredDataType": null,
+      "parserSignals": {
+        "posterData": false,
+        "jsonLd": false,
+        "classifiedMain": false,
+        "h1": true,
+        "canonical": true
+      },
+      "contentChecksum": "6b36c51aeba95ee772da28b8512321668242f00a09ddd79132b6cb93e6db1c1a",
+      "validation": {
+        "ok": true,
+        "errors": [],
+        "warnings": [
+          "missing_json_ld",
+          "missing_poster_data",
+          "no_content_image"
+        ]
+      },
+      "sitemapLastmod": null,
+      "http": {
+        "ok": true
+      }
+    },
+    {
+      "sourceUrl": "https://www.baomajie.com/pt/yellowpages/",
+      "canonical": "https://www.baomajie.com/pt/yellowpages/",
+      "pageType": "yellowpages-index",
+      "country": "pt",
+      "section": "yellowpages",
+      "sourceId": null,
+      "title": "葡萄牙华人黄页",
+      "description": "葡萄牙华人商家黄页，快速找到餐厅、物流、服装、美容等本地商家并一键联系。",
+      "categoryLabel": "黄页",
+      "region": null,
+      "priceText": null,
+      "serviceCategory": null,
+      "methodText": null,
+      "publishedAt": null,
+      "eventStartAt": null,
+      "eventEndAt": null,
+      "modifiedAt": null,
+      "images": [],
+      "contacts": {
+        "phones": [],
+        "wechat": [],
+        "emails": [],
+        "whatsapp": []
+      },
+      "structuredDataType": null,
+      "parserSignals": {
+        "posterData": false,
+        "jsonLd": false,
+        "classifiedMain": false,
+        "h1": true,
+        "canonical": true
+      },
+      "contentChecksum": "1cd2186402c342caeac220d3a9f593d1c36047c57c4f5631699ceac105697a73",
+      "validation": {
+        "ok": true,
+        "errors": [],
+        "warnings": [
+          "missing_json_ld",
+          "missing_poster_data",
+          "no_content_image"
+        ]
+      },
+      "sitemapLastmod": null,
+      "http": {
+        "ok": true
+      }
+    },
+    {
+      "sourceUrl": "https://www.baomajie.com/pt/local/",
+      "canonical": "https://www.baomajie.com/pt/local/",
+      "pageType": "local-index",
+      "country": "pt",
+      "section": "local",
+      "sourceId": null,
+      "title": "葡萄牙华人本地活动",
+      "description": "发现葡萄牙华人社区活动——户外、社交、育儿、学术等，扫码入群参与。",
+      "categoryLabel": "本地活动",
+      "region": null,
+      "priceText": null,
+      "serviceCategory": null,
+      "methodText": null,
+      "publishedAt": null,
+      "eventStartAt": null,
+      "eventEndAt": null,
+      "modifiedAt": null,
+      "images": [],
+      "contacts": {
+        "phones": [],
+        "wechat": [],
+        "emails": [],
+        "whatsapp": []
+      },
+      "structuredDataType": null,
+      "parserSignals": {
+        "posterData": false,
+        "jsonLd": false,
+        "classifiedMain": false,
+        "h1": true,
+        "canonical": true
+      },
+      "contentChecksum": "75aad2b48cb2299211bcb3132d1c62b06d2bc8befb43c2ec552b4ba21704b1cf",
+      "validation": {
+        "ok": true,
+        "errors": [],
+        "warnings": [
+          "missing_json_ld",
+          "missing_poster_data",
+          "no_content_image"
+        ]
+      },
+      "sitemapLastmod": null,
+      "http": {
+        "ok": true
+      }
+    },
+    {
+      "sourceUrl": "https://www.baomajie.com/pt/news/",
+      "canonical": "https://www.baomajie.com/pt/news",
+      "pageType": "news-index",
+      "country": "pt",
+      "section": "news",
+      "sourceId": null,
+      "title": "葡萄牙华人资讯",
+      "description": "聚合葡萄牙华人关注的华文媒体、本地外媒、网红主播与常用资料。",
+      "categoryLabel": "资讯",
+      "region": null,
+      "priceText": null,
+      "serviceCategory": null,
+      "methodText": null,
+      "publishedAt": null,
+      "eventStartAt": null,
+      "eventEndAt": null,
+      "modifiedAt": null,
+      "images": [],
+      "contacts": {
+        "phones": [],
+        "wechat": [],
+        "emails": [],
+        "whatsapp": []
+      },
+      "structuredDataType": null,
+      "parserSignals": {
+        "posterData": false,
+        "jsonLd": false,
+        "classifiedMain": false,
+        "h1": true,
+        "canonical": true
+      },
+      "contentChecksum": "c42643f8eba228cabc12e6aeb79d530d085cbfc36ce1ffb39ed025a87d4ce2ea",
+      "validation": {
+        "ok": true,
+        "errors": [],
+        "warnings": [
+          "missing_json_ld",
+          "missing_poster_data",
+          "no_content_image"
+        ]
+      },
+      "sitemapLastmod": null,
+      "http": {
+        "ok": true
+      }
+    },
+    {
+      "sourceUrl": "https://www.baomajie.com/pt/news/post/341/",
+      "canonical": "https://www.baomajie.com/pt/news/post/341/",
+      "pageType": "news-index",
+      "country": "pt",
+      "section": "news",
+      "sourceId": null,
+      "title": "注意！今天下午波尔图市中心大范围封路",
+      "description": "波尔图市政府宣布，为配合6月23日晚至24日凌晨举行的圣若昂节（São João）庆祝活动，市内尤其是市中心区域将实施大范围临时交通管制。相关限制措施将于23日（星期二）下午开始，并持续至24日（星期三）上午。\n其中，路易一世大桥（Ponte Luís I）将于23日19时起至24日8时全面禁止车辆通行。\n在市中心区域，从23日17时至24日8时，位于Rua de Camões、Rua da Trindade、Rua do Bonjardim、Rua do Bolhão、Rua da Firmeza、Rua de Fernandes Tomás、Rua da Alegria、Rua de",
+      "categoryLabel": "本地资讯",
+      "region": null,
+      "priceText": null,
+      "serviceCategory": null,
+      "methodText": null,
+      "publishedAt": "2026-06-23T13:48:00+01:00",
+      "eventStartAt": null,
+      "eventEndAt": null,
+      "modifiedAt": null,
+      "images": [
+        "https://yp-img.baomajie.com/media/news-digest/8d2855f8-00e7-444a-9513-b9aca46f0adc.webp",
+        "https://yp-img.baomajie.com/ads/b43d1395-9091-4c2c-a81c-11aaad9232fa.jpg",
+        "https://yp-img.baomajie.com/ads/5b24304e-b45c-4c1e-a724-8fdd2fdacae0.gif",
+        "https://yp-img.baomajie.com/ads/b613ca2e-548e-4788-9f02-80b588346399.gif",
+        "https://yp-img.baomajie.com/ads/82b76b89-8a61-4491-9b15-9dd353b92600.jpg",
+        "https://yp-img.baomajie.com/media/news-digest/6b5b0418-b7b7-4ecd-aaf4-8710c12d5a9c.webp",
+        "https://yp-img.baomajie.com/media/news-digest/8f8a0250-ddf3-4a71-a07c-7358fc2a1d1b.webp",
+        "https://yp-img.baomajie.com/media/news-digest/be96ebd9-1072-47c5-9dc8-d3388dbdff86.webp",
+        "https://yp-img.baomajie.com/media/news-digest/8294430c-3118-4bdd-9636-c9c98c5a9717.webp",
+        "https://yp-img.baomajie.com/media/news-digest/9c46eea2-9c4a-47c2-a5e8-494a7cb21543.webp",
+        "https://yp-img.baomajie.com/media/news-digest/fc7abe19-e0e1-4f49-89ef-848bbc0cc41d.webp",
+        "https://yp-img.baomajie.com/media/news-digest/4a42cafd-7618-460a-b4cd-0a3292d4a035.webp",
+        "https://yp-img.baomajie.com/media/news-digest/74338820-4f55-4731-b82e-ef1e2e9a7bc1.webp",
+        "https://media.baomajie.com/bda0411c-1773-4dfb-9382-003b077508ae.webp",
+        "https://media.baomajie.com/f31246ee-6d4b-49dd-906d-4f93a930b5b2.webp"
+      ],
+      "contacts": {
+        "phones": [],
+        "wechat": [],
+        "emails": [],
+        "whatsapp": []
+      },
+      "structuredDataType": "NewsArticle",
+      "parserSignals": {
+        "posterData": true,
+        "jsonLd": true,
+        "classifiedMain": false,
+        "h1": true,
+        "canonical": true
+      },
+      "contentChecksum": "c14c9aa09f7302ef918dc26d39b7a8d8431a187d67f88728a7d94d550fa72f12",
+      "validation": {
+        "ok": true,
+        "errors": [],
+        "warnings": []
+      },
+      "sitemapLastmod": "2026-06-23T11:48:00Z",
+      "http": {
+        "ok": true
+      }
+    },
+    {
+      "sourceUrl": "https://www.baomajie.com/pt/publish/",
+      "canonical": "https://www.baomajie.com/pt/publish/",
+      "pageType": "publish",
+      "country": "pt",
+      "section": "publish",
+      "sourceId": null,
+      "title": "发布信息",
+      "description": "葡萄牙华人分类信息平台",
+      "categoryLabel": null,
+      "region": null,
+      "priceText": null,
+      "serviceCategory": null,
+      "methodText": null,
+      "publishedAt": null,
+      "eventStartAt": null,
+      "eventEndAt": null,
+      "modifiedAt": null,
+      "images": [],
+      "contacts": {
+        "phones": [],
+        "wechat": [],
+        "emails": [],
+        "whatsapp": []
+      },
+      "structuredDataType": null,
+      "parserSignals": {
+        "posterData": false,
+        "jsonLd": false,
+        "classifiedMain": false,
+        "h1": true,
+        "canonical": true
+      },
+      "contentChecksum": "c156f4a907408d3718c874ec6f6e8d6183a5423d82429537efe1297331c8ce61",
+      "validation": {
+        "ok": true,
+        "errors": [],
+        "warnings": [
+          "missing_json_ld",
+          "missing_poster_data",
+          "no_content_image"
+        ]
+      },
+      "sitemapLastmod": null,
+      "http": {
+        "ok": true
+      }
+    },
+    {
+      "sourceUrl": "https://www.baomajie.com/pt/jobs/",
+      "canonical": "https://www.baomajie.com/pt/jobs/",
+      "pageType": "classified-index",
+      "country": "pt",
+      "section": "jobs",
+      "sourceId": null,
+      "title": "葡萄牙华人求职招聘",
+      "description": "葡萄牙华人求职招聘信息列表，持续更新中。",
+      "categoryLabel": "求职招聘",
+      "region": null,
+      "priceText": null,
+      "serviceCategory": null,
+      "methodText": null,
+      "publishedAt": null,
+      "eventStartAt": null,
+      "eventEndAt": null,
+      "modifiedAt": null,
+      "images": [],
+      "contacts": {
+        "phones": [],
+        "wechat": [],
+        "emails": [],
+        "whatsapp": []
+      },
+      "structuredDataType": null,
+      "parserSignals": {
+        "posterData": false,
+        "jsonLd": false,
+        "classifiedMain": false,
+        "h1": true,
+        "canonical": true
+      },
+      "contentChecksum": "87198534a24c1d552657ba7e495093019e3085782531d35f91b941e00bf2d2fa",
+      "validation": {
+        "ok": true,
+        "errors": [],
+        "warnings": [
+          "missing_json_ld",
+          "missing_poster_data",
+          "no_content_image"
+        ]
+      },
+      "sitemapLastmod": null,
+      "http": {
+        "ok": true
+      }
+    },
+    {
+      "sourceUrl": "https://www.baomajie.com/pt/rent/",
+      "canonical": "https://www.baomajie.com/pt/rent/",
+      "pageType": "classified-index",
+      "country": "pt",
+      "section": "rent",
+      "sourceId": null,
+      "title": "葡萄牙华人房产租售",
+      "description": "葡萄牙华人房产租售信息列表，持续更新中。",
+      "categoryLabel": "房产租售",
+      "region": null,
+      "priceText": null,
+      "serviceCategory": null,
+      "methodText": null,
+      "publishedAt": null,
+      "eventStartAt": null,
+      "eventEndAt": null,
+      "modifiedAt": null,
+      "images": [],
+      "contacts": {
+        "phones": [],
+        "wechat": [],
+        "emails": [],
+        "whatsapp": []
+      },
+      "structuredDataType": null,
+      "parserSignals": {
+        "posterData": false,
+        "jsonLd": false,
+        "classifiedMain": false,
+        "h1": true,
+        "canonical": true
+      },
+      "contentChecksum": "a89a1eb7a7539d19f3d0bfff0a17d26c8d24e65b4f0e7e4fe3681a560aa5a9fe",
+      "validation": {
+        "ok": true,
+        "errors": [],
+        "warnings": [
+          "missing_json_ld",
+          "missing_poster_data",
+          "no_content_image"
+        ]
+      },
+      "sitemapLastmod": null,
+      "http": {
+        "ok": true
+      }
+    },
+    {
+      "sourceUrl": "https://www.baomajie.com/pt/used/",
+      "canonical": "https://www.baomajie.com/pt/used/",
+      "pageType": "classified-index",
+      "country": "pt",
+      "section": "used",
+      "sourceId": null,
+      "title": "葡萄牙华人二手买卖",
+      "description": "葡萄牙华人二手买卖信息列表，持续更新中。",
+      "categoryLabel": "二手买卖",
+      "region": null,
+      "priceText": null,
+      "serviceCategory": null,
+      "methodText": null,
+      "publishedAt": null,
+      "eventStartAt": null,
+      "eventEndAt": null,
+      "modifiedAt": null,
+      "images": [],
+      "contacts": {
+        "phones": [],
+        "wechat": [],
+        "emails": [],
+        "whatsapp": []
+      },
+      "structuredDataType": null,
+      "parserSignals": {
+        "posterData": false,
+        "jsonLd": false,
+        "classifiedMain": false,
+        "h1": true,
+        "canonical": true
+      },
+      "contentChecksum": "77cb4954454a59fcb372a8eb01197e2f1217438967fdfbd9d0ee257061ecb00e",
+      "validation": {
+        "ok": true,
+        "errors": [],
+        "warnings": [
+          "missing_json_ld",
+          "missing_poster_data",
+          "no_content_image"
+        ]
+      },
+      "sitemapLastmod": null,
+      "http": {
+        "ok": true
+      }
+    },
+    {
+      "sourceUrl": "https://www.baomajie.com/pt/biz/",
+      "canonical": "https://www.baomajie.com/pt/biz/",
+      "pageType": "classified-index",
+      "country": "pt",
+      "section": "biz",
+      "sourceId": null,
+      "title": "葡萄牙华人生意转让",
+      "description": "葡萄牙华人生意转让信息列表，持续更新中。",
+      "categoryLabel": "生意转让",
+      "region": null,
+      "priceText": null,
+      "serviceCategory": null,
+      "methodText": null,
+      "publishedAt": null,
+      "eventStartAt": null,
+      "eventEndAt": null,
+      "modifiedAt": null,
+      "images": [],
+      "contacts": {
+        "phones": [],
+        "wechat": [],
+        "emails": [],
+        "whatsapp": []
+      },
+      "structuredDataType": null,
+      "parserSignals": {
+        "posterData": false,
+        "jsonLd": false,
+        "classifiedMain": false,
+        "h1": true,
+        "canonical": true
+      },
+      "contentChecksum": "a413e425da263c5c095bef223e4fac88d103ec3617d26cedd9d2d5300e2f6658",
+      "validation": {
+        "ok": true,
+        "errors": [],
+        "warnings": [
+          "missing_json_ld",
+          "missing_poster_data",
+          "no_content_image"
+        ]
+      },
+      "sitemapLastmod": null,
+      "http": {
+        "ok": true
+      }
+    },
+    {
+      "sourceUrl": "https://www.baomajie.com/pt/service/",
+      "canonical": "https://www.baomajie.com/pt/service/",
+      "pageType": "classified-index",
+      "country": "pt",
+      "section": "service",
+      "sourceId": null,
+      "title": "葡萄牙华人便民服务",
+      "description": "葡萄牙华人便民服务信息列表，持续更新中。",
+      "categoryLabel": "便民服务",
+      "region": null,
+      "priceText": null,
+      "serviceCategory": null,
+      "methodText": null,
+      "publishedAt": null,
+      "eventStartAt": null,
+      "eventEndAt": null,
+      "modifiedAt": null,
+      "images": [],
+      "contacts": {
+        "phones": [],
+        "wechat": [],
+        "emails": [],
+        "whatsapp": []
+      },
+      "structuredDataType": null,
+      "parserSignals": {
+        "posterData": false,
+        "jsonLd": false,
+        "classifiedMain": false,
+        "h1": true,
+        "canonical": true
+      },
+      "contentChecksum": "123ee011b7dae825a01d9045244de704870dedde13408321d7f3eeaa5737a4c4",
+      "validation": {
+        "ok": true,
+        "errors": [],
+        "warnings": [
+          "missing_json_ld",
+          "missing_poster_data",
+          "no_content_image"
+        ]
+      },
+      "sitemapLastmod": null,
+      "http": {
+        "ok": true
+      }
+    },
+    {
+      "sourceUrl": "https://www.baomajie.com/pt/jobs/4571/",
+      "canonical": "https://www.baomajie.com/pt/jobs/4571/",
+      "pageType": "classified-detail",
+      "country": "pt",
+      "section": "jobs",
+      "sourceId": "4571",
+      "title": "里斯本郊区招聘寿司师傅",
+      "description": "📍 里斯本郊区\n• 招聘岗位：寿司师傅\n• 薪资待遇：面谈\n• 联系电话：966815503",
+      "categoryLabel": "求职招聘",
+      "region": "里斯本",
+      "priceText": "面谈",
+      "serviceCategory": null,
+      "methodText": "招全职",
+      "publishedAt": "2026-06-23T13:37:12+01:00",
+      "eventStartAt": null,
+      "eventEndAt": null,
+      "modifiedAt": null,
+      "images": [],
+      "contacts": {
+        "phones": [
+          "966815503"
+        ],
+        "wechat": [],
+        "emails": [],
+        "whatsapp": []
+      },
+      "structuredDataType": "JobPosting",
+      "parserSignals": {
+        "posterData": true,
+        "jsonLd": true,
+        "classifiedMain": true,
+        "h1": true,
+        "canonical": true
+      },
+      "contentChecksum": "7f21a92864db3868f2e7306e8a5d99b8278dd319e51c870734ee11bb93f842a6",
+      "validation": {
+        "ok": true,
+        "errors": [],
+        "warnings": [
+          "no_content_image"
+        ]
+      },
+      "sitemapLastmod": "2026-06-23T12:34:53Z",
+      "http": {
+        "ok": true
+      }
+    },
+    {
+      "sourceUrl": "https://www.baomajie.com/pt/jobs/4570/",
+      "canonical": "https://www.baomajie.com/pt/jobs/4570/",
+      "pageType": "classified-detail",
+      "country": "pt",
+      "section": "jobs",
+      "sourceId": "4570",
+      "title": "里斯本市区餐馆招熟手跑堂及暑假工",
+      "description": "📍 里斯本市区\n🍱 餐馆招人\n• 熟手跑堂 1名\n• 暑假工 1名\n✅ 要求：有经验\n❌ 不招学徒",
+      "categoryLabel": "求职招聘",
+      "region": "里斯本",
+      "priceText": "面议",
+      "serviceCategory": null,
+      "methodText": "招全职",
+      "publishedAt": "2026-06-23T13:04:24+01:00",
+      "eventStartAt": null,
+      "eventEndAt": null,
+      "modifiedAt": null,
+      "images": [],
+      "contacts": {
+        "phones": [],
+        "wechat": [],
+        "emails": [],
+        "whatsapp": []
+      },
+      "structuredDataType": "JobPosting",
+      "parserSignals": {
+        "posterData": true,
+        "jsonLd": true,
+        "classifiedMain": true,
+        "h1": true,
+        "canonical": true
+      },
+      "contentChecksum": "bf4686e668d733bca977b349ff4096937e490430be0f1681aa13d3cf01277e59",
+      "validation": {
+        "ok": true,
+        "errors": [],
+        "warnings": [
+          "no_content_image"
+        ]
+      },
+      "sitemapLastmod": "2026-06-23T12:04:03Z",
+      "http": {
+        "ok": true
+      }
+    },
+    {
+      "sourceUrl": "https://www.baomajie.com/pt/biz/4562/",
+      "canonical": "https://www.baomajie.com/pt/biz/4562/",
+      "pageType": "classified-detail",
+      "country": "pt",
+      "section": "biz",
+      "sourceId": "4562",
+      "title": "有意向合伙开店的联系+931 464 0…",
+      "description": "有意向合伙开店的联系+931 464 029",
+      "categoryLabel": "生意转让",
+      "region": "南部",
+      "priceText": "8000欧转让",
+      "serviceCategory": null,
+      "methodText": "店铺转让",
+      "publishedAt": "2026-06-23T11:23:36.000Z",
+      "eventStartAt": null,
+      "eventEndAt": null,
+      "modifiedAt": null,
+      "images": [],
+      "contacts": {
+        "phones": [
+          "931464029"
+        ],
+        "wechat": [],
+        "emails": [],
+        "whatsapp": []
+      },
+      "structuredDataType": "Product",
+      "parserSignals": {
+        "posterData": true,
+        "jsonLd": true,
+        "classifiedMain": true,
+        "h1": true,
+        "canonical": true
+      },
+      "contentChecksum": "3883d63a193645610a93633b9f370672fcbe45f6e17165f1b44ba4997c773c8d",
+      "validation": {
+        "ok": true,
+        "errors": [],
+        "warnings": [
+          "no_content_image"
+        ]
+      },
+      "sitemapLastmod": "2026-06-23T11:21:55Z",
+      "http": {
+        "ok": true
+      }
+    },
+    {
+      "sourceUrl": "https://www.baomajie.com/pt/biz/4553/",
+      "canonical": "https://www.baomajie.com/pt/biz/4553/",
+      "pageType": "classified-detail",
+      "country": "pt",
+      "section": "biz",
+      "sourceId": "4553",
+      "title": "🔥 Lisboa 餐饮店转让｜Anjos 地铁附近",
+      "description": "📍 位置便利，靠近地铁站\n🏠 面积约150㎡，室内约50个座位\n📦 带地下仓库 + 员工间\n🍳 餐饮资质齐全，适合多种餐饮业态\n• 适合中餐、快餐、烧烤、面馆、外卖店等\n• 接手可继续经营，也适合重新打造新品牌\n💰 店主诚意转让，价格可议\n✅ 随时方便看店，欢迎私信详谈",
+      "categoryLabel": "生意转让",
+      "region": "Anjos",
+      "priceText": "面议",
+      "serviceCategory": null,
+      "methodText": "店铺转让",
+      "publishedAt": "2026-06-23T10:16:09.000Z",
+      "eventStartAt": null,
+      "eventEndAt": null,
+      "modifiedAt": null,
+      "images": [
+        "https://media.baomajie.com/f31246ee-6d4b-49dd-906d-4f93a930b5b2.webp",
+        "https://media.baomajie.com/dca4ef4a-664e-46b0-b1ba-2366d84933e4.webp",
+        "https://media.baomajie.com/586c19e3-fd17-4c86-91f6-511fd2d2a739.webp",
+        "https://media.baomajie.com/d2630af0-a39b-48ff-8f77-6d11ad3458d5.webp",
+        "https://media.baomajie.com/814e0027-4850-46b0-b704-c6f2f45557e2.webp",
+        "https://media.baomajie.com/4e3c953b-9887-4635-b3db-6f92774c3e93.webp",
+        "https://media.baomajie.com/278792a3-a652-4dc0-b2a4-6ee79b1fd336.webp",
+        "https://media.baomajie.com/5e660d94-f06f-4a28-9aa8-c65f7a7518c7.webp",
+        "https://media.baomajie.com/6638e62c-2b31-406c-a18f-a97382fa4d0e.webp"
+      ],
+      "contacts": {
+        "phones": [],
+        "wechat": [],
+        "emails": [],
+        "whatsapp": []
+      },
+      "structuredDataType": "Product",
+      "parserSignals": {
+        "posterData": true,
+        "jsonLd": true,
+        "classifiedMain": true,
+        "h1": true,
+        "canonical": true
+      },
+      "contentChecksum": "9a461bd3e1e429df3e4d4b5f8437f755512e93f7b28a5165d9ce74670e5addc8",
+      "validation": {
+        "ok": true,
+        "errors": [],
+        "warnings": []
+      },
+      "sitemapLastmod": "2026-06-23T10:16:09Z",
+      "http": {
+        "ok": true
+      }
+    },
+    {
+      "sourceUrl": "https://www.baomajie.com/pt/rent/4551/",
+      "canonical": "https://www.baomajie.com/pt/rent/4551/",
+      "pageType": "classified-detail",
+      "country": "pt",
+      "section": "rent",
+      "sourceId": "4551",
+      "title": "Arroios地铁口…",
+      "description": "927331050\nArroios地铁口🈶单人间出租，需要找🈶稳定工作，住长期的朋友，温州人优先，欢迎来电咨询",
+      "categoryLabel": "房产租售",
+      "region": "其它",
+      "priceText": "面议",
+      "serviceCategory": null,
+      "methodText": "分租",
+      "publishedAt": "2026-06-23T10:16:58.000Z",
+      "eventStartAt": null,
+      "eventEndAt": null,
+      "modifiedAt": null,
+      "images": [],
+      "contacts": {
+        "phones": [
+          "927331050"
+        ],
+        "wechat": [],
+        "emails": [],
+        "whatsapp": []
+      },
+      "structuredDataType": "Product",
+      "parserSignals": {
+        "posterData": true,
+        "jsonLd": true,
+        "classifiedMain": true,
+        "h1": true,
+        "canonical": true
+      },
+      "contentChecksum": "cf6786e942e64a45ade5357ef83622e17b793dd21ddc2c9670f6e7010dfc9495",
+      "validation": {
+        "ok": true,
+        "errors": [],
+        "warnings": [
+          "no_content_image"
+        ]
+      },
+      "sitemapLastmod": "2026-06-23T09:33:56Z",
+      "http": {
+        "ok": true
+      }
+    },
+    {
+      "sourceUrl": "https://www.baomajie.com/pt/rent/4543/",
+      "canonical": "https://www.baomajie.com/pt/rent/4543/",
+      "pageType": "classified-detail",
+      "country": "pt",
+      "section": "rent",
+      "sourceId": "4543",
+      "title": "里斯本地铁红线附近单人房间出租环境安静",
+      "description": "📍 地铁红线附近\n🛏 单人房间出租\n\n• 环境安静，步行至地铁约6分钟\n• 购物便利：周边有大商场、三百店\n• 设施齐全：家具齐全，附近有免费停车位\n• 租客要求：爱干净人士",
+      "categoryLabel": "房产租售",
+      "region": "里斯本",
+      "priceText": "面议",
+      "serviceCategory": null,
+      "methodText": "分租",
+      "publishedAt": "2026-06-23T09:19:13.000Z",
+      "eventStartAt": null,
+      "eventEndAt": null,
+      "modifiedAt": null,
+      "images": [],
+      "contacts": {
+        "phones": [],
+        "wechat": [],
+        "emails": [],
+        "whatsapp": []
+      },
+      "structuredDataType": "Product",
+      "parserSignals": {
+        "posterData": true,
+        "jsonLd": true,
+        "classifiedMain": true,
+        "h1": true,
+        "canonical": true
+      },
+      "contentChecksum": "580a3f236e7bb9f07a3155a13fa36500ff58fe14b442dcc59ea8330dda5482ef",
+      "validation": {
+        "ok": true,
+        "errors": [],
+        "warnings": [
+          "no_content_image"
+        ]
+      },
+      "sitemapLastmod": "2026-06-22T20:17:10Z",
+      "http": {
+        "ok": true
+      }
+    },
+    {
+      "sourceUrl": "https://www.baomajie.com/pt/service/4522/",
+      "canonical": "https://www.baomajie.com/pt/service/4522/",
+      "pageType": "classified-detail",
+      "country": "pt",
+      "section": "service",
+      "sourceId": "4522",
+      "title": "中国人装修团队接单中",
+      "description": "🛠 中国人装修团队接单中\n\n• 具有大型点餐经验\n• 专业承接各类装修工程\n\n📞 电话：925012638\n✅ 微信：wangyongling08",
+      "categoryLabel": "便民服务",
+      "region": "其它",
+      "priceText": "面议",
+      "serviceCategory": null,
+      "methodText": "提供服务",
+      "publishedAt": "2026-06-22T12:09:34.000Z",
+      "eventStartAt": null,
+      "eventEndAt": null,
+      "modifiedAt": null,
+      "images": [],
+      "contacts": {
+        "phones": [
+          "925012638"
+        ],
+        "wechat": [
+          "wangyongling08"
+        ],
+        "emails": [],
+        "whatsapp": []
+      },
+      "structuredDataType": "Product",
+      "parserSignals": {
+        "posterData": true,
+        "jsonLd": true,
+        "classifiedMain": true,
+        "h1": true,
+        "canonical": true
+      },
+      "contentChecksum": "68ee0e81fb4e0bc2a0a6bbdd8301128a67cee70637771df107840f57dcafcddd",
+      "validation": {
+        "ok": true,
+        "errors": [],
+        "warnings": [
+          "no_content_image"
+        ]
+      },
+      "sitemapLastmod": "2026-06-22T12:09:08Z",
+      "http": {
+        "ok": true
+      }
+    },
+    {
+      "sourceUrl": "https://www.baomajie.com/pt/service/2030/",
+      "canonical": "https://www.baomajie.com/pt/service/2030/",
+      "pageType": "classified-detail",
+      "country": "pt",
+      "section": "service",
+      "sourceId": "2030",
+      "title": "2025年7月前过期葡萄牙Longa欧盟卡换发",
+      "description": "好消息！\n2025年7月前过期的葡萄牙欧盟蓝卡（Longa Duração）\n现在可以👉 在线换发了！\n\n无需预约，直接线上递交\n全流程数字化办理，省时省力更高效 ✅\n\n像图中这种状态（已过期/到期）\n现在都可以走线上换卡流程了！\n\n📌 不懂流程？不会操作？\n👉 有需要找宝马街，一站式帮你搞定",
+      "categoryLabel": "便民服务",
+      "region": "里斯本",
+      "priceText": "100",
+      "serviceCategory": null,
+      "methodText": "提供服务",
+      "publishedAt": "2026-04-28T14:09:28.000Z",
+      "eventStartAt": null,
+      "eventEndAt": null,
+      "modifiedAt": null,
+      "images": [
+        "https://media.baomajie.com/0020db4e-6652-4486-b8f5-0db5402f9c08.webp"
+      ],
+      "contacts": {
+        "phones": [],
+        "wechat": [],
+        "emails": [],
+        "whatsapp": []
+      },
+      "structuredDataType": "Product",
+      "parserSignals": {
+        "posterData": true,
+        "jsonLd": true,
+        "classifiedMain": true,
+        "h1": true,
+        "canonical": true
+      },
+      "contentChecksum": "6de8fd51b5a39eafc0d4d650962135651ef14e4b7834ae9f8ce56891a6dd5411",
+      "validation": {
+        "ok": true,
+        "errors": [],
+        "warnings": []
+      },
+      "sitemapLastmod": "2026-04-28T14:09:28Z",
+      "http": {
+        "ok": true
+      }
+    },
+    {
+      "sourceUrl": "https://www.baomajie.com/pt/used/4500/",
+      "canonical": "https://www.baomajie.com/pt/used/4500/",
+      "pageType": "classified-detail",
+      "country": "pt",
+      "section": "used",
+      "sourceId": "4500",
+      "title": "收购造冰机和咖啡机",
+      "description": "📍 区域：未提及\n📦 类别：厨具设备\n💰 价格：面议\n• 收购造冰机一台\n• 收购咖啡机一台\n✅ 有意者请联系",
+      "categoryLabel": "二手买卖",
+      "region": "其它",
+      "priceText": "面议",
+      "serviceCategory": null,
+      "methodText": "收购",
+      "publishedAt": "2026-06-21T19:34:00.000Z",
+      "eventStartAt": null,
+      "eventEndAt": null,
+      "modifiedAt": null,
+      "images": [],
+      "contacts": {
+        "phones": [],
+        "wechat": [],
+        "emails": [],
+        "whatsapp": []
+      },
+      "structuredDataType": "Product",
+      "parserSignals": {
+        "posterData": true,
+        "jsonLd": true,
+        "classifiedMain": true,
+        "h1": true,
+        "canonical": true
+      },
+      "contentChecksum": "12307b0eaaea66e0e466073537537fea1b95db367fecb0a67e4caa015cb2a759",
+      "validation": {
+        "ok": true,
+        "errors": [],
+        "warnings": [
+          "no_content_image"
+        ]
+      },
+      "sitemapLastmod": "2026-06-21T19:33:36Z",
+      "http": {
+        "ok": true
+      }
+    },
+    {
+      "sourceUrl": "https://www.baomajie.com/pt/used/4478/",
+      "canonical": "https://www.baomajie.com/pt/used/4478/",
+      "pageType": "classified-detail",
+      "country": "pt",
+      "section": "used",
+      "sourceId": "4478",
+      "title": "2023年8月 Opel Astra 高配自动挡一手车",
+      "description": "🚗 2023年8月一手车\n🛡️ 官方保修期内\n⚙️ 柴油130马力 / 8AT自动挡\n✨ 高配 Opel Astra",
+      "categoryLabel": "二手买卖",
+      "region": "里斯本",
+      "priceText": "面议",
+      "serviceCategory": null,
+      "methodText": "出售",
+      "publishedAt": "2026-06-21T02:04:03.000Z",
+      "eventStartAt": null,
+      "eventEndAt": null,
+      "modifiedAt": null,
+      "images": [
+        "https://media.baomajie.com/1ba0cc7f-9b39-460a-b792-4bcbe9fc422c.webp"
+      ],
+      "contacts": {
+        "phones": [],
+        "wechat": [],
+        "emails": [],
+        "whatsapp": []
+      },
+      "structuredDataType": "Product",
+      "parserSignals": {
+        "posterData": true,
+        "jsonLd": true,
+        "classifiedMain": true,
+        "h1": true,
+        "canonical": true
+      },
+      "contentChecksum": "95301ce1f995a5f6ab4808e797ff9bfcb4aacdd026c4ae9b5481083c10fbea58",
+      "validation": {
+        "ok": true,
+        "errors": [],
+        "warnings": []
+      },
+      "sitemapLastmod": "2026-06-21T02:03:49Z",
+      "http": {
+        "ok": true
+      }
+    },
+    {
+      "sourceUrl": "https://www.baomajie.com/pt/yellowpages/663/",
+      "canonical": "https://www.baomajie.com/pt/yellowpages/663/",
+      "pageType": "yellowpages-detail",
+      "country": "pt",
+      "section": "yellowpages",
+      "sourceId": "663",
+      "title": "REN 甜品屋",
+      "description": "📍 详细地址：Rua da Mouraria 74, 1100-364, Lisboa",
+      "categoryLabel": "黄页",
+      "region": "里斯本货行",
+      "priceText": null,
+      "serviceCategory": "蛋糕奶茶",
+      "methodText": null,
+      "publishedAt": null,
+      "eventStartAt": null,
+      "eventEndAt": null,
+      "modifiedAt": null,
+      "images": [],
+      "contacts": {
+        "phones": [],
+        "wechat": [],
+        "emails": [],
+        "whatsapp": []
+      },
+      "structuredDataType": "LocalBusiness",
+      "parserSignals": {
+        "posterData": true,
+        "jsonLd": true,
+        "classifiedMain": false,
+        "h1": false,
+        "canonical": true
+      },
+      "contentChecksum": "43e7347688ba330392bf57a11061b20832e76629c5c10fbf0fc1a8a36723da39",
+      "validation": {
+        "ok": true,
+        "errors": [],
+        "warnings": [
+          "no_content_image"
+        ]
+      },
+      "sitemapLastmod": "2026-06-23T10:58:19Z",
+      "http": {
+        "ok": true
+      }
+    },
+    {
+      "sourceUrl": "https://www.baomajie.com/pt/yellowpages/464/",
+      "canonical": "https://www.baomajie.com/pt/yellowpages/464/",
+      "pageType": "yellowpages-detail",
+      "country": "pt",
+      "section": "yellowpages",
+      "sourceId": "464",
+      "title": "恒诚会计事务所",
+      "description": "📍 详细地址：Av. Luís Bivar 73, 2º Dto, 1050-142, Lisboa\n\n会计",
+      "categoryLabel": "黄页",
+      "region": "里斯本大区",
+      "priceText": null,
+      "serviceCategory": "法律会计",
+      "methodText": null,
+      "publishedAt": null,
+      "eventStartAt": null,
+      "eventEndAt": null,
+      "modifiedAt": null,
+      "images": [],
+      "contacts": {
+        "phones": [],
+        "wechat": [],
+        "emails": [],
+        "whatsapp": []
+      },
+      "structuredDataType": "LocalBusiness",
+      "parserSignals": {
+        "posterData": true,
+        "jsonLd": true,
+        "classifiedMain": false,
+        "h1": false,
+        "canonical": true
+      },
+      "contentChecksum": "278e3adee910a9bdabf090cc74014e0889cfc4d9aefa1f943a7da53b3f101b5e",
+      "validation": {
+        "ok": true,
+        "errors": [],
+        "warnings": [
+          "no_content_image"
+        ]
+      },
+      "sitemapLastmod": "2026-06-23T10:57:05Z",
+      "http": {
+        "ok": true
+      }
+    },
+    {
+      "sourceUrl": "https://www.baomajie.com/pt/local/45/",
+      "canonical": "https://www.baomajie.com/pt/local/45/",
+      "pageType": "local-detail",
+      "country": "pt",
+      "section": "local",
+      "sourceId": "45",
+      "title": "2026北京“归国小精英”研学夏令营",
+      "description": "在这个暑假，让孩子告别走马观花的游客模式，开启一场跨越历史与未来的精英蜕变之旅！博雅学堂专为欧洲华侨家庭子女打造，将中文学习转化为实战眼界，助力孩子把握成长的黄金窗口期。\n【活动核心亮点】\n硬核深度参访： 走进清华、北大校区与学霸面对面规划人生；探秘顶级AI实验室，亲手操作机器人，预见未来商机。\n文化底蕴重塑： 深度解密故宫建筑美学与数学逻辑，登临居庸关长城，让孩子不仅会说中文，更有大国气概与非凡谈吐。\n优质精英圈层： 汇聚欧洲同龄华侨优秀少年，在14天的行程中建立起相伴一生的跨国人脉网络。\n高品质生活保障： 全程入住安全舒适的名校环境，专业摄影师全程跟拍，让您在欧洲忙碌之余，实时见",
+      "categoryLabel": "研学",
+      "region": "其它",
+      "priceText": "8998¥ / 1150€（不含国际机票）",
+      "serviceCategory": null,
+      "methodText": null,
+      "publishedAt": null,
+      "eventStartAt": "2026-07-07T00:00:00+01:00",
+      "eventEndAt": "2026-07-20T00:00:00+01:00",
+      "modifiedAt": null,
+      "images": [
+        "https://yp-img.baomajie.com/local/gallery/1dd78c94-db1e-4456-b50f-5214aa12f253.webp",
+        "https://yp-img.baomajie.com/local/cover/5527e960-0c33-4ca2-90b1-fbd9f985de4f.webp",
+        "https://yp-img.baomajie.com/local/gallery/8dc68a85-17b0-4858-b337-4174887b3fb9.webp",
+        "https://yp-img.baomajie.com/local/gallery/cd9f2729-38e7-40cd-ab26-c9fd25f6f65b.webp",
+        "https://yp-img.baomajie.com/local/gallery/14265de3-378b-494c-bac2-a2c4248964d9.webp",
+        "https://yp-img.baomajie.com/local/gallery/88f5cffd-b1bb-4a35-8357-57c200399ef2.webp",
+        "https://yp-img.baomajie.com/local/gallery/a2bfa47d-924c-4fa5-b076-8ae3c01279b4.webp",
+        "https://yp-img.baomajie.com/local/gallery/94495b5d-bb17-47df-80b5-3bed3ed4eb56.webp"
+      ],
+      "contacts": {
+        "phones": [],
+        "wechat": [],
+        "emails": [],
+        "whatsapp": []
+      },
+      "structuredDataType": "Event",
+      "parserSignals": {
+        "posterData": true,
+        "jsonLd": true,
+        "classifiedMain": false,
+        "h1": false,
+        "canonical": true
+      },
+      "contentChecksum": "7eabe30dad4a0db38b939dde60c7fb81caef606bef404b769296c213949f7ba2",
+      "validation": {
+        "ok": true,
+        "errors": [],
+        "warnings": []
+      },
+      "sitemapLastmod": "2026-06-23T10:57:06Z",
+      "http": {
+        "ok": true
+      }
+    },
+    {
+      "sourceUrl": "https://www.baomajie.com/pt/local/35/",
+      "canonical": "https://www.baomajie.com/pt/local/35/",
+      "pageType": "local-detail",
+      "country": "pt",
+      "section": "local",
+      "sourceId": "35",
+      "title": "【2026夏令营】14天深耕大湾区：香港、珠海、广州研学之旅火热报名中！",
+      "description": "​2026夏令营：大湾区的夏天\n​这是一次专为青少年设计的深度研学之旅，涵盖了香港、珠海、阳江、广州四大核心城市，带领孩子领略大湾区的现代工程、海洋文化与历史底蕴。\n​📊 基本信息\n​活动时间： 2026年7月中旬\n​行程天数： 14天13夜\n​招收对象： 8-17岁（独立营）\n​报名截止日期： 2026年6月10日\n​🌟 特色活动亮点\n​现代工程： 寻找课本上的维多利亚港，走近超级工程——港珠澳大桥。\n​海洋探索： 畅玩长隆海洋王国，感受海洋的神奇魅力。\n​历史研学： 学习中国古代航海历史，探秘“南海一号”，寻访海上丝绸之路踪迹。\n​城市地标： 打卡广州塔（小蛮腰），赏",
+      "categoryLabel": "研学",
+      "region": "其它",
+      "priceText": "1290 €",
+      "serviceCategory": null,
+      "methodText": null,
+      "publishedAt": null,
+      "eventStartAt": "2026-07-15T20:25:00+01:00",
+      "eventEndAt": "2026-07-30T20:26:00+01:00",
+      "modifiedAt": null,
+      "images": [
+        "https://yp-img.baomajie.com/local/gallery/e9749d82-6aaf-4cb4-8f6a-18f6764c8db7.webp",
+        "https://yp-img.baomajie.com/local/cover/c8b35dff-bac1-481c-955a-01b19ae5a338.webp"
+      ],
+      "contacts": {
+        "phones": [],
+        "wechat": [],
+        "emails": [],
+        "whatsapp": []
+      },
+      "structuredDataType": "Event",
+      "parserSignals": {
+        "posterData": true,
+        "jsonLd": true,
+        "classifiedMain": false,
+        "h1": false,
+        "canonical": true
+      },
+      "contentChecksum": "8bb18208d72983363ab159060b5bf059df2ff7fa3f7121328c90f2e9a7bb765a",
+      "validation": {
+        "ok": true,
+        "errors": [],
+        "warnings": []
+      },
+      "sitemapLastmod": "2026-06-23T10:57:07Z",
+      "http": {
+        "ok": true
+      }
+    },
+    {
+      "sourceUrl": "https://www.baomajie.com/pt/news/media/125/",
+      "canonical": "https://www.baomajie.com/pt/news/media/125/",
+      "pageType": "news-media-detail",
+      "country": "pt",
+      "section": "news",
+      "sourceId": "125",
+      "title": "BABELL",
+      "description": "波尔图文学文化平台",
+      "categoryLabel": "资讯",
+      "region": null,
+      "priceText": null,
+      "serviceCategory": null,
+      "methodText": null,
+      "publishedAt": null,
+      "eventStartAt": null,
+      "eventEndAt": null,
+      "modifiedAt": "2026-06-23T09:25:48Z",
+      "images": [],
+      "contacts": {
+        "phones": [],
+        "wechat": [],
+        "emails": [],
+        "whatsapp": []
+      },
+      "structuredDataType": "MediaObject",
+      "parserSignals": {
+        "posterData": false,
+        "jsonLd": true,
+        "classifiedMain": false,
+        "h1": true,
+        "canonical": true
+      },
+      "contentChecksum": "d69e21dfebd4dcef9e7959647b2477713bc87e2fb818703031183f5324a1d4d6",
+      "validation": {
+        "ok": true,
+        "errors": [],
+        "warnings": [
+          "no_content_image"
+        ]
+      },
+      "sitemapLastmod": "2026-06-23T08:25:48Z",
+      "http": {
+        "ok": true
+      }
+    },
+    {
+      "sourceUrl": "https://www.baomajie.com/pt/news/media/53/",
+      "canonical": "https://www.baomajie.com/pt/news/media/53/",
+      "pageType": "news-media-detail",
+      "country": "pt",
+      "section": "news",
+      "sourceId": "53",
+      "title": "邮寄委托书",
+      "description": "邮寄委托书",
+      "categoryLabel": "资讯",
+      "region": null,
+      "priceText": null,
+      "serviceCategory": null,
+      "methodText": null,
+      "publishedAt": null,
+      "eventStartAt": null,
+      "eventEndAt": null,
+      "modifiedAt": "2026-06-22T19:10:42Z",
+      "images": [],
+      "contacts": {
+        "phones": [],
+        "wechat": [],
+        "emails": [],
+        "whatsapp": []
+      },
+      "structuredDataType": "MediaObject",
+      "parserSignals": {
+        "posterData": false,
+        "jsonLd": true,
+        "classifiedMain": false,
+        "h1": true,
+        "canonical": true
+      },
+      "contentChecksum": "8491fd84725b8460674009b383c172556cdfc728773e57f7edd9162513a74a5f",
+      "validation": {
+        "ok": true,
+        "errors": [],
+        "warnings": [
+          "no_content_image"
+        ]
+      },
+      "sitemapLastmod": "2026-06-22T18:10:42Z",
+      "http": {
+        "ok": true
+      }
+    }
+  ]
+}
